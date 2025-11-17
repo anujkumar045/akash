@@ -157,8 +157,8 @@
 # else:
 #     print("Please enter correct string.")
 
-#WAP TO PRINT N NATURAL NATURAL NUMBERS.
-#HORIZONTALLY
+#WAP TO PRINT N NATURAL NUMBERS.
+# verTicaALLY
 # n=int(input("Enter value : "))
 # for i in range(1,n+1):
 #     print(i)
@@ -201,15 +201,15 @@
 #         print(2*i)
 
 #sum of even numbers
-# n=int(input("Enter value : "))
-# sum=0
-# for i in range(1,n+1):
-#     sum=sum+2*i
-#     if i<n:
-#        print(2*i,end='+')
-#     else:
-#         print(2*i,end='=')
-# print(sum)
+n=int(input("Enter value : "))
+sum=0
+for i in range(1,n+1):
+    sum=sum+2*i
+    if i<n:
+       print(2*i,end='+')
+    else:
+        print(2*i,end='=')
+print(sum)
 
 #sum of n odd numbers
 n=int(input("Enter value : "))
@@ -221,4 +221,68 @@ for i in range(1,n+1):
     else:
         print((2*i-1),end='=')
 print(sum)
+
+
+# a=float(input("Enter side of triangle: " ))
+# b=float(input("Enter side of triangle: " ))
+# c=float(input("Enter side of triangle: " ))
+# if(a ==b==c):
+#     print("The triangle is equlateral traingle")
+# elif(a==b or b==c or a==c):
+#     print("The triangle is isosceles traingle")
+# else:
+#     print("The triangle is scalene traingle")
+
+# h=float(input("Enter marks of Hindi : "))
+# if 33<=h<=100:
+#     e=float(input("Enter marks of English : "))
+#     if 33<=e<=100:
+#         m=float(input("Enter marks of maths : "))
+#         if 33<=m<=100:
+#             p=((h+e+m)/300)
+#             if 40<=p<=100:
+#                 print("Pass",p)
+#             else:
+#                 print("Fail",p)
+#         else:
+#             print("Fail in maths")
+#     else:
+#         print("Fail in English")
+# else:
+#     print("Fail in hindi")    
+
+# un=input("Enter username : ")
+# c=0
+# for i in un:
+#     c=c+1
+# if c<10:
+#     print("Valid username")
+# else:
+#   print("Invalid username")
+
+n=int(input("enter value"))
+sum=0
+for i in range(2,n+1,2):
+    sum=sum+i
+    if i<n:
+        print(i,end='+')
+    else:
+        print(i,end='=')
+print(sum)  
+
+n=int(input("enter value"))
+sum=0
+for i in range(1,n+1,2):
+    sum=sum+i
+    if i<n:
+        print(i,end='+')
+    else:
+        print(i,end='=')
+print(sum)  
+
+
+
+# n=int(input("enter value"))
+# for i in range(1,n+1):
+#     print("*")
 
