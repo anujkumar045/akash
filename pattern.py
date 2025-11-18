@@ -6,15 +6,14 @@ n=int(input("enter value"))
 for i in range(1,n+1):
     print(" "*(n-i)+"*"*i)
 
-        *
 
 n=int(input("enter value"))
 for i in range(1,n+1):
     print(" "*(n-i)+"* "*i)
 
 n=int(input("enter value"))
-# for i in range(1,n+1):
-#     print("* "*i)
+for i in range(1,n+1):
+    print("* "*i)
 
 n=int(input("enter value"))
 for i in range(n):
@@ -88,3 +87,15 @@ for i in range(n):
       print(ch,end=' ')
       ch=chr(ord(ch)+1)
     print()
+
+n=5
+i=1
+while i<=n:
+    ch='A'
+    j=1
+    while j<=n:
+        print(ch,end=' ')
+        ch=chr(ord(ch)+1)
+        j=j+1
+    print()
+    i=i+1
