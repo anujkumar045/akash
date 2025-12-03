@@ -20,7 +20,7 @@
 # s1,s2={1,2,3},{3,4,5}
 # print(s1.isdisjoint(s2))
 # print(s2.isdisjoint(s1))
-# s={1,2,3,'python','java'}
+s={1,2,3,'python','java'}
 # s1=s.copy()
 # print(s1)
 # print(id(s1),id(s))
@@ -71,6 +71,10 @@
 # data=dict(zip(keys,values))
 # print(data)
 
-a,b=int(input("Enter a number : ")),int(input("Enter a number : "))
-print("a = ",a)
-print("b = ",b)
+# a,b=int(input("Enter a number : ")),int(input("Enter a number : "))
+# print("a = ",a)
+# print("b = ",b)
+
+# l=[10,90,70,40,50,45]
+# l.sort(reverse=True)
+# print(l)
